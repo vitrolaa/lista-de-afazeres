@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #f2eff3;
+}
+h1{
+    text-align: center;
+    color: black;
+        
+}
+#tarefa{
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #007bff;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#new-todo{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button :hover{
+background-color: #0056b3;
+}
+#todo-list{
+    list-style-type: none;
+    padding: 0;
+}
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.todo-item.completed span{
+    text-decoration: line-through;
+    color: gray;
+}
+.todo-item input[type="text"]{
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.icon-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font: 1.2em;
+    margin-left: 5px;
+}
+.icon-btn :hover{
+color: #0056b3;
+}
+.actions{
+    display: flex;
+    align-items: center;
+}
